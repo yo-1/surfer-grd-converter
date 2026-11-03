@@ -1,0 +1,16 @@
+[general]
+name=Surfer GRD Converter
+description=Convert Surfer GRD grids (GSAG/GSBG/GS7BG input) to GeoTIFF and XYZ, and rasters back to GSAG/GSBG, as Processing algorithms
+version=0.1.0
+qgisMinimumVersion=3.34
+qgisMaximumVersion=3.99
+author=yo-1
+email=yo-1@geographic-information.net
+about=Bidirectional Surfer GRD conversion. GRD files carry no CRS, so GeoTIFF output needs a CRS supplied by the user. GS7BG writing is excluded in v0.1 because GDAL writing of it was unstable in testing.
+tracker=https://github.com/yo-1/surfer-grd-converter/issues
+repository=https://github.com/yo-1/surfer-grd-converter
+tags=Surfer,GRD,raster,conversion
+icon=icon.png
+category=Raster
+hasProcessingProvider=yes
+experimental=True

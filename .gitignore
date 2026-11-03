@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+dist/
+tests/samples/
+*.grd.aux.xml
+
+# 配布用バンドルZIPは Release / Drive で管理
+surfer-grd-real-machine-test-kit-*.zip
